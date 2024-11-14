@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Grocery Bud</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css" />
+    <link rel="stylesheet" href="https://code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <section class="section-center">
+      <!-- theme toggle -->
+      <div class="theme-toggle">
+        <button id="themeToggle">
+          <i class="fas fa-moon"></i>
+        </button>
+      </div>
+      <!-- form -->
+      <form class="grocery-form">
+        <p class="alert"></p>
+        <h3>grocery bud</h3>
+        <div class="form-control">
+          <input type="text" id="grocery" placeholder="e.g. eggs" />
+          <button type="submit" class="submit-btn">submit</button>
+        </div>
+      </form>
+      <!-- search -->
+      <div class="search-container">
+        <input type="text" id="searchInput" placeholder="Search items..." />
+      </div>
+      <!-- list -->
+      <div class="grocery-container">
+        <div class="grocery-list" id="sortable"></div>
+        <button class="clear-btn">clear items</button>
+      </div>
+    </section>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.min.js"></script>
+    <script src="app.js"></script>
+  </body>
+</html>
