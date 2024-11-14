@@ -1,6 +1,7 @@
 # Grocery Bud
 
 Sebuah aplikasi web sederhana untuk menambahkan dan mencari item  dengan fitur dark mode.
+
 Dan di sini saya memodifikasi project https://github.com/john-smilga/javascript-basic-projects (JOHN SMILGA ).
 
 ## 🌟 New Fitur
